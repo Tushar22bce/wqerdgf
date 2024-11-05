@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BRS Customer Care</title>
+    
+    <style>
+        .back-button {
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            
+        }
+
+        .back-button:hover {
+            background-color: #0056b3;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #007BFF;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .contact-info, .faq, .support-resources, .feedback {
+            margin-bottom: 20px;
+        }
+        .contact-info h2, .faq h2, .support-resources h2, .feedback h2 {
+            border-bottom: 2px solid #007BFF;
+            padding-bottom: 5px;
+        }
+        .faq ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .faq li {
+            margin-bottom: 10px;
+        }
+        .feedback form {
+            display: flex;
+            flex-direction: column;
+        }
+        .feedback input, .feedback textarea {
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .feedback button {
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .feedback button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>BRS Customer Care</h1>
+    </header>
+    <header><button class="back-button" onclick="location.href='website.html'">Back</button></header>
+
+    <div class="container">
+        <div class="contact-info">
+            <h2>Contact Us</h2>
+            <p><strong>Phone Support:</strong> 763-432-9691</p>
+            <p><strong>Email Support:</strong> <a href="mailto:support@bulkreefsupply.com">support@bulkreefsupply.com</a></p>
+            <p><strong>Live Chat:</strong> Available Monday - Thursday: 9 AM - 5 PM IST, Friday: 9 AM - 4 PM IST</p>
+        </div>
+
+        <div class="faq">
+            <h2>Frequently Asked Questions (FAQs)</h2>
+            <ul>
+                <li><strong>How do I place an order?</strong> You can place an order directly through our website.</li>
+                <li><strong>What is your return policy?</strong> We offer a 30-day return policy on most items.</li>
+                <li><strong>How can I track my order?</strong> Once your order has shipped, you will receive a tracking number via email.</li>
+            </ul>
+        </div>
+
+        <div class="support-resources">
+            <h2>Support Resources</h2>
+            <p>Access our <a href="#">Knowledge Base</a> for articles, guides, and troubleshooting tips.</p>
+            <p>Download product manuals and setup guides from our <a href="#">Product Manuals</a> section.</p>
+            <p>Join our <a href="#">Community Forum</a> to connect with other reef enthusiasts.</p>
+        </div>
+
+        <div class="feedback">
+            <h2>Feedback and Suggestions</h2>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea rows="4" placeholder="Your Feedback" required></textarea>
+                <button type="submit">Submit Feedback</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

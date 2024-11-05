@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Login - Shuttle Bus</title>
+    <link rel="stylesheet" href="login.css" type="text/css">
+    
+    <style>
+        .input-wrap .input {
+            transition: border 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .input-wrap .input:hover {
+            border: 2px solid #007BFF;
+            box-shadow: 0 0 5px rgba(72, 0, 255, 0.5);
+        }
+
+        .login-form {
+            max-width: 400px;
+            margin: 50px auto;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .login-form h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .login-form .input-wrap {
+            margin-bottom: 15px;
+        }
+
+        .login-form .input-wrap .inside-lable {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        .login-form .screen-home__submit-wrap {
+            text-align: center;
+        }
+
+        .login-form .screen-home__submit-wrap button {
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .login-form .screen-home__submit-wrap button:hover {
+            background-color: #00b342;
+        }
+        
+    </style>
+    
+</head>
+<body>
+    
+    <main class="cd__main">
+        <div class="main">
+            <div class="login-form">
+                <h2>Login</h2>
+                <form>
+                    <div class="input-wrap">
+                        <span class="inside-lable">Email</span>
+                        <input class="input" type="email" name="email" required placeholder="Enter your email">
+                    </div>
+                    <div class="input-wrap">
+                        <span class="inside-lable">Password</span>
+                        <input class="input" type="password" name="password" required placeholder="Enter your password">
+                    </div>
+                    <div class="screen-home__submit-wrap">
+                        <button type="submit" onclick="location.href='website.html'">Login</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+    
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+    
+    <script type="text/javascript" src="website.js"></script>
+    
+</body>
+</html>
